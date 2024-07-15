@@ -72,7 +72,7 @@ AFRAME.registerComponent("bullets", {
           
   
           //remove event listener
-          element.removeEventListener("collide",this.shoot)
+          element.removeEventListener("collide",this.removeBullet)
           
           
           //remove the bullets from the scene
